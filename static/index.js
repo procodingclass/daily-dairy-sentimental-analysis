@@ -31,7 +31,7 @@ $(function () {
                 $('#save_button').prop('disabled', false);
             },
             error: function (result) {
-                alert(result.responseJSON.message)
+                alert("Error occur during the prediction!")
             }
         });
     });
@@ -52,7 +52,7 @@ $(function () {
                 window.location.reload()
             },
             error: function (result) {
-                alert(result.responseJSON.message)
+                alert("Error occur during save!")
             }
         });
 
